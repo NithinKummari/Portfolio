@@ -1,0 +1,5 @@
+{
+  "name": "Nithin Kummari - Animated Portfolio",
+  "description": "An animated personal portfolio website for Nithin Kummari, a Cybersecurity B.Tech student, showcasing skills, experience, and projects. Features an AI assistant to answer questions about the resume. IMPORTANT: This application requires the GEMINI_API_KEY environment variable to be set for the AI Assistant feature to function.",
+  "requestFramePermissions": []
+}

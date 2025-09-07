@@ -16,7 +16,7 @@ const asciiArt = `
 export const WelcomeMessage: React.FC = () => {
     return (
         <div className="mb-4">
-            <pre className="text-[#859900] text-xs md:text-sm leading-tight">{asciiArt}</pre>
+            <pre className="text-terminal-green text-xs md:text-sm leading-tight glow-text">{asciiArt}</pre>
             <div className="mt-4">
                 <Typewriter text="Welcome to my interactive portfolio." />
             </div>

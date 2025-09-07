@@ -3,7 +3,7 @@ import { resumeData } from '../data/resumeData';
 import Typewriter from '../components/Typewriter';
 
 const renderLink = (url: string) => (
-    <a href={`https://${url}`} target="_blank" rel="noopener noreferrer" className="text-[#2aa198] underline hover:text-[#93a1a1]">
+    <a href={`https://${url}`} target="_blank" rel="noopener noreferrer" className="text-terminal-cyan underline hover:text-terminal-text">
         {url}
     </a>
 );

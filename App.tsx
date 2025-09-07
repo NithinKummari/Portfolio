@@ -4,7 +4,7 @@ import Terminal from './components/Terminal';
 
 const App: React.FC = () => {
   return (
-    <div className="bg-[#002b36] text-[#839496] min-h-screen font-mono">
+    <div className="bg-terminal-bg text-terminal-text min-h-screen font-terminal">
       <Terminal />
     </div>
   );

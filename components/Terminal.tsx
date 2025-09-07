@@ -6,8 +6,8 @@ import { WelcomeMessage } from './WelcomeMessage';
 
 const Prompt: React.FC = () => (
   <div className="flex-shrink-0">
-    <span className="text-[#859900]">nithin@portfolio</span>
-    <span className="text-[#6c71c4]">:$ ~ </span>
+    <span className="text-terminal-green">nithin@portfolio</span>
+    <span className="text-terminal-violet">:$ ~ </span>
   </div>
 );
 
@@ -71,7 +71,7 @@ const Terminal: React.FC = () => {
         <div key={item.id} className="mb-2 animate-fadeIn">
           <div className="flex flex-row space-x-2">
             <Prompt />
-            <span className="flex-1 text-[#2aa198]">{item.command}</span>
+            <span className="flex-1 text-terminal-cyan">{item.command}</span>
           </div>
           <div className="mt-1">{item.output}</div>
         </div>
@@ -84,7 +84,7 @@ const Terminal: React.FC = () => {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          className="bg-transparent border-none outline-none flex-1 text-[#eee8d5] w-full"
+          className="bg-transparent border-none outline-none flex-1 text-terminal-text w-full cursor-blink"
           autoComplete="off"
           autoCapitalize="off"
           autoCorrect="off"

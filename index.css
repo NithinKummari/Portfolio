@@ -1,0 +1,58 @@
+/* Global styles for Nithin Kummari Portfolio */
+
+/* Custom scrollbar for terminal theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #002b36;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #586e75;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #839496;
+}
+
+/* Selection styling */
+::selection {
+  background: #859900;
+  color: #002b36;
+}
+
+/* Focus styles for accessibility */
+input:focus {
+  outline: 2px solid #859900;
+  outline-offset: 2px;
+}
+
+/* Custom animations */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.cursor-blink {
+  animation: blink 1s infinite;
+}
+
+/* Responsive text scaling */
+@media (max-width: 640px) {
+  .terminal-text {
+    font-size: 0.875rem;
+  }
+}
+
+/* Custom utility classes */
+.glow-text {
+  text-shadow: 0 0 10px rgba(133, 153, 0, 0.5);
+}
+
+.terminal-border {
+  border: 1px solid #586e75;
+  border-radius: 4px;
+}
